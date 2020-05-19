@@ -1,13 +1,11 @@
 .arguments {
-	display: flex;
-	justify-content: space-between;
+	@include responsive;
 	
 	 
 
 	&__arg {
 		padding: 1rem;
-		flex-grow: 1;
-		flex-basis: 0;
+		
 	
 	}
 }
