@@ -1,0 +1,10 @@
+.demo {
+	display: flex;
+	justify-content: space-between;
+	 
+	& > div {
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+}
