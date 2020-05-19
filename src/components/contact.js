@@ -2,6 +2,8 @@ import React from "react"
 
 const Contact = () => (
 	<form name="contact" method="POST" data-netlify="true">
+		{/* You still need to add the hidden input with the form name to your JSX form */}
+		<input type="hidden" name="form-name" value="contact" />
 		<p>
 			<label>Your Name: <input type="text" name="name" /></label>   
 		</p>
