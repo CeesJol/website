@@ -13,6 +13,11 @@ import Splash from "../components/splash"
 // import "normalize.css"
 import "../styles/index.scss"
 
+import SmoothScroll from "smooth-scroll"
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 300
+});
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />

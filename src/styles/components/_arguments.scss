@@ -16,17 +16,19 @@
 
     text-align: left;
 
-    div {
-      margin: 0 2rem;
-    }
+		@media (min-width: $desktop-breakpoint) {
+			div {
+				margin: 0 2rem;
+			}
 
-    div:first-of-type {
-      margin-left: 0;
-    }
+			div:first-of-type {
+				margin-left: 0;
+			}
 
-    div:last-of-type {
-      margin-right: 0;
-    }
+			div:last-of-type {
+				margin-right: 0;
+			}
+		}
   }
 
   &__arg {

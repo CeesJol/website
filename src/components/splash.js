@@ -25,7 +25,7 @@ const Splash = () => (
           </footer>
         </div>
         <div className="splash__right">
-          <Image />
+          <Image src={"ex.png"} />
         </div>
       </div>
     </div>
