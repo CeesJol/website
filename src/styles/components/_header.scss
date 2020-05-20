@@ -1,7 +1,21 @@
 .header {
+	@include content-container;
+	
+	position: absolute;
+	background-color: transparent;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	z-index: 1;
+
+	// This centering junk is necessary because of position absolute
+	left: 0; 
+  right: 0;
 
 	&__title {
 		margin: 0;
-		font-weight: 600;
+		font-weight: 500;
+		color: white;
+		text-decoration: none;
 	}
 }

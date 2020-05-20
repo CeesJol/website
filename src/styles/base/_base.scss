@@ -3,19 +3,28 @@
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+	margin: 0 !important;
+	padding: 0;
+}
+
+h1 {
+	font-size: 5rem;
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 5rem;
+
+	padding-bottom: 5rem;
 }
 
 h3 {
 	font-size: 2rem;
+
+	padding-bottom: 2rem;
 }
 
 body {

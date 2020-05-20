@@ -1,3 +1,20 @@
+.contact {
+	// @include gradient;
+	background-color: rgb(234, 244, 254);
+	position: relative;
+	padding-bottom: 10rem;
+
+	&__content {
+		@include content-container;
+		position: relative;
+		background-color: white;
+		top: -10rem;
+		-webkit-box-shadow: 0px 0px 48px -18px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 48px -18px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 48px -18px rgba(0,0,0,0.75);
+	}
+}
+
 input, textarea {
 	display: block;
 	width: 100%;
