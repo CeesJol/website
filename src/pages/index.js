@@ -14,6 +14,9 @@ import Splash from "../components/splash"
 import "../styles/index.scss"
 
 import SmoothScroll from "smooth-scroll"
+if (typeof window !== 'undefined') {
+  smoothscroll.polyfill();
+}
 var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 300
 });
